@@ -146,7 +146,10 @@ section
   margin-bottom: 40px;
 }
 
-
+.sezione-planning > div > div > h3
+{
+  font-size: 1.6rem;
+}
 
 .sezione-planning img
 {
@@ -209,6 +212,13 @@ section
   .carta-sub
   {
     flex-basis: 31%;
+  }
+
+  
+
+  .sezione-planning > div > div > h3
+  {
+    font-size: 3.5rem;
   }
 }
 
