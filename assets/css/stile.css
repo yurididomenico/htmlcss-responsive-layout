@@ -30,6 +30,7 @@ header
 {
   background-color: #2786fa;
   padding: 20px 30px;
+  margin-bottom: 40px;
 }
 
 header i
@@ -61,8 +62,56 @@ header ul > li:last-child
 
 
 /* |||||||||| MAIN |||||||||| */
+.carta
+{
+  background-color: #b7defe;
+  border-radius: 15px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.carta > *:not(img)
+{
+  margin-bottom: 30px;
+}
+
+.carta h2
+{
+  color: #2786fa;
+  font-size: 1rem;
+}
+
+.carta p
+{
+  font-weight: 600;
+  line-height: 25px;
+  color: #5b6e7f;
+}
 
 
+
+.carta > div
+{
+  padding: 10px 50px;
+}
+
+.carta i
+{
+  color: white;
+}
+
+.carta img
+{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.carta .btn
+{
+  
+  width: 100%;
+  margin: auto;
+}
 
 /* |||||||||| FOOTER |||||||||| */
 
