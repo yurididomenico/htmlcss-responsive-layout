@@ -23,8 +23,29 @@ a
 
 /* |||||||||| HEADER |||||||||| */
 
+header
+{
+  background-color: #2786fa;
+  padding: 20px 30px;
+}
 
+header i
+{
+  color: white;
+  font-size: 1.4rem;
+}
 
+header li
+{
+  margin-left: 20px;
+  color: white;
+
+}
+
+header ul
+{
+  display: none;
+}
 /* |||||||||| NAV |||||||||| */
 
 
@@ -36,13 +57,48 @@ a
 /* |||||||||| FOOTER |||||||||| */
 
 
+/* |||||||||| MEDIA QUERIES |||||||||| */
+
+
+
+
+
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
+
+@media screen and (max-width: 768px)
+{
+  header ul,
+  header li
+  {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px)
+{
+  header .fa-solid
+  {
+    display: none;
+  }
+
+  header
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
 
 /* |||||||||| AREA TEST |||||||||| */
 
 
 
 
-/* |||||||||| AREA TEST |||||||||| */
 
 
 
@@ -76,8 +132,3 @@ a
 
 
 
-
-
-
-
-/* Fine */
