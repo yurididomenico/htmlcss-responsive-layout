@@ -297,11 +297,37 @@ section
   }
 
   
-
+  /* Planning */
   .sezione-planning > div > div > h3
   {
     font-size: 3.5rem;
   }
+
+  /* Testimonial */
+  .testimonial-carte > div
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .testimonial-carte > div > div:first-child
+  {
+    flex-basis: 30%;
+  }
+
+  .testimonial-carte > div > div:last-child
+  {
+    flex-basis: 60%;
+    line-height: 1.8rem;
+  }
+
+  .testimonial-carte > div > div > p
+  {
+    margin-bottom: 30px;
+  }
+
+
 }
 
 
@@ -382,7 +408,11 @@ section
   }
 
   
-
+  /* ----- Sezione 3 ----- */
+  .testimonial-carte img
+  {
+    width: 80%;
+  }
   
 }
 
