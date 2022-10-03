@@ -28,12 +28,18 @@ a
 {
   text-align: center;
 }
+
+.contenitore
+{
+  width: 85%;
+  margin: auto;
+}
 /* |||||||||| HEADER |||||||||| */
 
 header
 {
   background-color: #2786fa;
-  padding: 20px 30px;
+  padding: 20px 0;
   margin-bottom: 40px;
 }
 
@@ -66,6 +72,11 @@ header ul > li:last-child
 
 
 /* |||||||||| MAIN |||||||||| */
+section
+{
+  margin-bottom: 80px;
+}
+/* ----- Carte ----- */
 .carta
 {
   background-color: #b7defe;
@@ -74,7 +85,7 @@ header ul > li:last-child
   margin-top: 20px;
 }
 
-.carta > *:not(img)
+.carta > div > *:not(img)
 {
   margin-bottom: 30px;
 }
@@ -92,11 +103,10 @@ header ul > li:last-child
   color: #5b6e7f;
 }
 
-
-
-.carta > div
+.carta .app-store
 {
   padding: 10px 50px;
+  display: inline;
 }
 
 .carta i
@@ -118,27 +128,97 @@ header ul > li:last-child
   letter-spacing: 1px;
 }
 
-.carta .fa-file-code
+.carta .fa-solid
 {
   color: #2786fa;
   font-size: 5rem;
 }
+
+/* ----- Planning ----- */
+.sezione-planning
+{
+  padding-bottom: 80px;
+}
+
+.sezione-planning > div > div > *
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+.sezione-planning img
+{
+  width: 100%;
+}
+
+.sezione-planning p
+{
+  line-height: 1.5rem;
+}
+
+.sezione-planning > div:last-child
+{
+  color: black;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+}
+
+.sezione-planning > div:last-child > *
+{
+  margin-bottom: 10px;
+}
+
+.sezione-planning > div:last-child > div
+{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
 /* |||||||||| FOOTER |||||||||| */
 
 
 /* |||||||||| MEDIA QUERIES |||||||||| */
+/* ----- Queries 426px */
+
+@media screen and (min-width: 426px)
+{
+  section 
+  {
+    justify-content: space-between;
+  }
+
+  .carta
+  {
+    margin-bottom: 10px;
+  }
+
+  .carta img
+  {
+    width: 50%;
+  }
+
+  .carta-main
+  {
+    flex-basis: 65%;
+  }
+
+  .carta-sub
+  {
+    flex-basis: 31%;
+  }
+}
 
 
 
-
-
-
-
-
-/* |||||||||| AREA TEST |||||||||| */
-
+/* ----- Queries 768PX */
 @media screen and (max-width: 768px)
 {
+  /* -----HEADER----- */
+
   header ul,
   header li
   {
@@ -159,7 +239,41 @@ header ul > li:last-child
     justify-content: space-between;
     align-items: center;
   }
+
+  /* -----MAIN----- */
+
+  .carta-main
+  {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .carta-main > div:first-child
+  {
+    flex-basis: 50%;
+  }
+
+  .carta-main > div:last-child
+  {
+    flex-basis: 40%;
+    align-self: end;
+  }
+
+  .carta-main img
+  {
+    width: 100%;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+/* |||||||||| AREA TEST |||||||||| */
 
 
 
