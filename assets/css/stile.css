@@ -19,7 +19,10 @@ a
   color: black;
 }
 /* |||||||||| INIZIO |||||||||| */
-
+.btn
+{
+  border-radius: 100vmax;
+}
 
 /* |||||||||| HEADER |||||||||| */
 
@@ -35,6 +38,11 @@ header i
   font-size: 1.4rem;
 }
 
+header ul
+{
+  display: none;
+}
+
 header li
 {
   margin-left: 20px;
@@ -42,10 +50,12 @@ header li
 
 }
 
-header ul
+header ul > li:last-child
 {
-  display: none;
+  font-weight: 500;
 }
+
+
 /* |||||||||| NAV |||||||||| */
 
 

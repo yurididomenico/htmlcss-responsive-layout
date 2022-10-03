@@ -54,19 +54,19 @@
 /* (_____ Padding ____________________________) */
 .pad-xs
 {
-  padding: 0.5vw;
+  padding: 10px;
 }
 .pad-s
 {
-  padding: 1vw;
+  padding: 15px;
 }
 .pad-m
 {
-  padding: 2vw;
+  padding: 20px;
 }
 .pad-l
 {
-  padding: 3vw;
+  padding: 25px;
 }
 
 /* (_____ Padding laterale ____________________________) */
