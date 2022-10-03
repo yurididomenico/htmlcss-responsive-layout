@@ -29,11 +29,7 @@ a
   text-align: center;
 }
 
-.contenitore
-{
-  width: 85%;
-  margin: auto;
-}
+
 /* |||||||||| HEADER |||||||||| */
 
 header
@@ -76,6 +72,14 @@ section
 {
   margin-bottom: 80px;
 }
+
+.sezione1
+{
+  width: 85%;
+  margin: auto;
+}
+
+
 /* ----- Carte ----- */
 .carta
 {
@@ -185,6 +189,18 @@ section
 
 
 /* |||||||||| MEDIA QUERIES |||||||||| */
+
+@media screen and (max-width: 426px)
+{
+  .contenitore
+  {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+
+
 /* ----- Queries 426px */
 
 @media screen and (min-width: 426px)
@@ -192,6 +208,12 @@ section
   section 
   {
     justify-content: space-between;
+  }
+
+  .contenitore
+  {
+    width: 85%;
+    margin: auto;
   }
 
   .carta
@@ -252,10 +274,16 @@ section
 
   /* -----MAIN----- */
 
+  .contenitore
+  {
+    width: 80%;
+    margin: auto;
+  }
+
   .carta-main
   {
-    flex-wrap: nowrap;
     justify-content: space-between;
+    flex-basis: 65%;
   }
   .carta-main > div:first-child
   {
@@ -272,10 +300,45 @@ section
   {
     width: 100%;
   }
+
+  .carta-sub
+  {
+    flex-basis: 31%;
+  }
+  
+
+  /* ----- Sezione 2 ----- */
+
+  .sezione-planning
+  {
+    flex-wrap: nowrap;
+  }
+
+  .sezione-planning > div:first-child
+  {
+    flex-basis: 45%;
+  }
+
+  .sezione-planning > div:last-child
+  {
+    align-self: end;
+    flex-basis: 45%;
+  }
+
+  
+
+  
 }
 
 
-
+@media screen and (min-width: 1024px)
+{
+  .contenitore
+  {
+    width: 60%;
+    margin: auto;
+  }
+}
 
 
 
