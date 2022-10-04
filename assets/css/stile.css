@@ -16,7 +16,7 @@ img
 }
 a
 {
-  color: black;
+  color: inherit;
 }
 /* |||||||||| INIZIO |||||||||| */
 .btn
@@ -344,6 +344,58 @@ section
   display: inline-block;
   padding: 10px 20px;
 }
+
+
+
+/* ----- Get Started ----- */
+.get-started
+{
+  padding: 60px 0;
+}
+
+.get-started > div > *
+{
+  margin: 20px 0;
+}
+
+.get-started > div > span > .fa-circle
+{
+  font-size: 0.3rem;
+  vertical-align: middle;
+}
+
+.get-started > div > h3
+{
+  font-size: 1.5rem;
+}
+
+.get-started > div > h2
+{
+  font-size: 3rem;
+}
+
+.get-started > div > p
+{
+  line-height: 30px;
+}
+
+.get-started > div > .btn
+{
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.get-started > div > span
+{
+  display: block;
+  
+}
+
+
+
+
+
 
 
 /* |||||||||| FOOTER |||||||||| */

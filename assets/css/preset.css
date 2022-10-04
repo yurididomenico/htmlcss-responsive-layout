@@ -199,7 +199,10 @@
 
 /* (_____ Font Weight ____________________________) */
 
-
+.sottolineato
+{
+  text-decoration: underline;
+}
 /* |||||||||| AREA COLORI |||||||||| */
 
 .sfondo-grigio
@@ -236,7 +239,10 @@
   color: #9993e2;
 }
 
-
+.giallo
+{
+  color: #fbc067;
+}
 
 
 
