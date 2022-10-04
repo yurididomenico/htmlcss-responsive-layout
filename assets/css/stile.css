@@ -299,7 +299,13 @@ section
 
 .about-us > div > div > h2
 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+}
+
+.about-us > div > div > p
+{
+  line-height: 30px;
+  font-weight: 500;
 }
 
 .about-us > div > div > p
@@ -313,7 +319,7 @@ section
   width: 200px;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  overflow: hidden;
+  position: relative;
 }
 
 .about-us > div > div > .box > img
@@ -321,6 +327,16 @@ section
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-us > div > div > .box > .fa-quote-left
+{
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  color: #9993e2;
+  font-size: 6rem;
 }
 
 .about-us > div > div > .btn
@@ -419,6 +435,25 @@ section
     margin-bottom: 40px;
   }
 
+  /* About Us */
+  .about-us > div
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-us > div > div:first-child
+  {
+    flex-basis: 55%;
+  }
+
+  .about-us > div > div:last-child
+  {
+    flex-basis: 35%;
+    justify-content: flex-end;
+  }
+
+  
 }
 
 
