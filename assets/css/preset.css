@@ -197,7 +197,11 @@
   font-size: 2rem;
 }
 
-/* (_____ Font Weight ____________________________) */
+/* (_____ Display ____________________________) */
+.block
+{
+  display: block;
+}
 
 .sottolineato
 {
@@ -221,7 +225,10 @@
 {
   background-color: #9993e2;
 }
-
+.sfondo-grigioscuro
+{
+  background-color: #333333;
+}
 
 
 

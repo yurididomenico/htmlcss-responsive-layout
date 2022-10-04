@@ -72,7 +72,7 @@ header ul > li:last-child
 
 /* |||||||||| MAIN |||||||||| */
 
-section
+section:not(.get-started)
 {
   margin-bottom: 80px;
 }
@@ -389,7 +389,6 @@ section
 .get-started > div > span
 {
   display: block;
-  
 }
 
 
@@ -399,6 +398,21 @@ section
 
 
 /* |||||||||| FOOTER |||||||||| */
+footer
+{
+  padding: 40px 20px;
+}
+
+footer > div > p:first-child
+{
+  margin-bottom: 60px;
+}
+
+footer > div > p:last-child
+{
+  font-size: 0.8rem;
+  line-height: 20px;
+}
 
 
 /* |||||||||| MEDIA QUERIES |||||||||| */
