@@ -37,6 +37,9 @@ header
   background-color: #2786fa;
   padding: 20px 0;
   margin-bottom: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header i
@@ -68,6 +71,7 @@ header ul > li:last-child
 
 
 /* |||||||||| MAIN |||||||||| */
+
 section
 {
   margin-bottom: 80px;
@@ -75,8 +79,7 @@ section
 
 .sezione1
 {
-  width: 85%;
-  margin: auto;
+  padding-top: 100px;
 }
 
 
@@ -356,6 +359,7 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
 
   /* -----MAIN----- */
