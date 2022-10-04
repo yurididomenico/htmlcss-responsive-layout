@@ -187,6 +187,8 @@ section
   margin: auto;
 }
 
+
+/* ----- Testimonial ----- */
 .testimonial-carte
 {
   color: white;
@@ -247,6 +249,46 @@ section
   height: 100%;
   object-fit: cover;
 }
+
+.benefici
+{
+  padding: 80px 0;
+}
+
+.benefici > div > h3
+{
+  font-size: 1.6rem;
+}
+
+.benefici-carte .carta
+{
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.benefici-carte .carta > *
+{
+  padding-bottom: 20px;
+}
+
+.benefici-carte .carta h2
+{
+  color: #9993e2;
+  font-size: 3rem;
+}
+
+.benefici-carte .carta h3
+{
+  color: #9993e2;
+  font-size: 1.5rem;
+}
+
+.benefici-carte .carta .btn
+{
+  display: inline-block;
+  padding: 10px 50px;
+}
+
 
 /* |||||||||| FOOTER |||||||||| */
 
